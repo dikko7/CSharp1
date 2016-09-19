@@ -1,0 +1,22 @@
+﻿<Window x:Name="WPF1" x:Class="Task1WPF.MainWindow"
+        xmlns="http://schemas.microsoft.com/winfx/2006/xaml/presentation"
+        xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml"
+        xmlns:d="http://schemas.microsoft.com/expression/blend/2008"
+        xmlns:mc="http://schemas.openxmlformats.org/markup-compatibility/2006"
+        xmlns:local="clr-namespace:Task1WPF"
+        mc:Ignorable="d"
+        Title="WPF1" Height="350" Width="481" TextOptions.TextHintingMode="Animated" WindowStartupLocation="CenterScreen" ResizeMode="CanResizeWithGrip">
+    <Grid>
+        <Label x:Name="label" Content="Введите значения сторон прямоугольника (а и b):" HorizontalAlignment="Left" Margin="107,10,0,0" VerticalAlignment="Top" FontWeight="Bold" FontStyle="Italic" RenderTransformOrigin="0.498,0.5"/>
+        <TextBox x:Name="textBox" HorizontalAlignment="Left" Height="23" Margin="157,55,0,0" TextWrapping="Wrap" VerticalAlignment="Top" Width="120"/>
+        <Label x:Name="label1" Content="  a=" HorizontalAlignment="Left" Margin="126,52,0,0" VerticalAlignment="Top"/>
+        <Label x:Name="label2" Content=" b=" HorizontalAlignment="Left" Margin="127,97,0,0" VerticalAlignment="Top"/>
+        <TextBox x:Name="textBox1" HorizontalAlignment="Left" Height="23" Margin="157,100,0,0" TextWrapping="Wrap" VerticalAlignment="Top" Width="120"/>
+        <Button x:Name="button" Content="Посчитать площадь S" HorizontalAlignment="Left" Margin="48,139,0,0" VerticalAlignment="Top" Width="134" Height="28" Click="button_Click"/>
+        <Button x:Name="button1" Content="Посчитать периметр P" HorizontalAlignment="Left" Margin="268,139,0,0" VerticalAlignment="Top" Width="135" Height="28" Click="button1_Click"/>
+        <Label x:Name="label3" Content="" HorizontalAlignment="Left" Margin="72,200,0,0" VerticalAlignment="Top"/>
+        <Label x:Name="label4" Content="S" HorizontalAlignment="Left" Margin="87,182,0,0" VerticalAlignment="Top" RenderTransformOrigin="0.5,0.5"/>
+        <Label x:Name="label5" Content="P" HorizontalAlignment="Left" Margin="86,228,0,0" VerticalAlignment="Top"/>
+
+    </Grid>
+</Window>

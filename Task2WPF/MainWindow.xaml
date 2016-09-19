@@ -1,0 +1,27 @@
+﻿<Window x:Name="WPF2" x:Class="Task2WPF.MainWindow"
+        xmlns="http://schemas.microsoft.com/winfx/2006/xaml/presentation"
+        xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml"
+        xmlns:d="http://schemas.microsoft.com/expression/blend/2008"
+        xmlns:mc="http://schemas.openxmlformats.org/markup-compatibility/2006"
+        xmlns:local="clr-namespace:Task2WPF"
+        mc:Ignorable="d"
+        Title="WPF2" Height="308" Width="492.975" ResizeMode="CanResizeWithGrip" WindowStartupLocation="CenterScreen">
+    <Grid>
+        <Grid.ColumnDefinitions>
+            <ColumnDefinition Width="71*"/>
+            <ColumnDefinition Width="26*"/>
+        </Grid.ColumnDefinitions>
+        <Label x:Name="label" Content="Найдите z1 и z2:" Margin="178,10,38,0" VerticalAlignment="Top" FontWeight="Bold" FontStyle="Italic" FontSize="14"/>
+        <Image x:Name="image" HorizontalAlignment="Left" Height="49" Margin="178,60,0,0" VerticalAlignment="Top" Width="130"/>
+        <Image x:Name="Image1_png" Margin="105,39,104,182" Source="Image1.png" Stretch="Fill" RenderTransformOrigin="0.925,0.482" Grid.ColumnSpan="2"/>
+        <Label x:Name="label1" Content="Введите m:" HorizontalAlignment="Left" Margin="34,102,0,0" VerticalAlignment="Top"/>
+        <TextBox x:Name="textBox" HorizontalAlignment="Left" Height="23" Margin="109,105,0,0" TextWrapping="Wrap" VerticalAlignment="Top" Width="120"/>
+        <Label x:Name="label2" Content=" Введите n:" HorizontalAlignment="Left" Margin="252,102,0,0" VerticalAlignment="Top"/>
+        <TextBox x:Name="textBox1" HorizontalAlignment="Left" Height="23" Margin="322,105,0,0" TextWrapping="Wrap" VerticalAlignment="Top" Width="120" Grid.ColumnSpan="2"/>
+        <Button x:Name="button" Content="Посчитать z1" HorizontalAlignment="Left" Margin="48,133,0,0" VerticalAlignment="Top" Width="86" Height="30" Click="button_Click"/>
+        <Button x:Name="button1" Content="Посчитать z2" HorizontalAlignment="Left" Margin="196,133,0,0" VerticalAlignment="Top" Width="85" Height="30" Click="button1_Click"/>
+        <Label x:Name="label3" Content="z1" HorizontalAlignment="Left" Margin="48,181,0,0" VerticalAlignment="Top"/>
+        <Label x:Name="label4" Content="z2" HorizontalAlignment="Left" Margin="48,212,0,0" VerticalAlignment="Top"/>
+
+    </Grid>
+</Window>

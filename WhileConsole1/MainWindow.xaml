@@ -1,0 +1,17 @@
+﻿<Window x:Class="WhileConsole1.MainWindow"
+        xmlns="http://schemas.microsoft.com/winfx/2006/xaml/presentation"
+        xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml"
+        xmlns:d="http://schemas.microsoft.com/expression/blend/2008"
+        xmlns:mc="http://schemas.openxmlformats.org/markup-compatibility/2006"
+        xmlns:local="clr-namespace:WhileConsole1"
+        mc:Ignorable="d"
+        Title="MainWindow" Height="350" Width="525">
+    <Grid>
+        <Label x:Name="label" Content="N=" HorizontalAlignment="Left" Margin="30,69,0,0" VerticalAlignment="Top"/>
+        <Image x:Name="Image1_png" Margin="10,10,0,252" Source="Image1.png" Stretch="Fill"/>
+        <TextBox x:Name="textBox" HorizontalAlignment="Left" Height="23" Margin="57,72,0,0" TextWrapping="Wrap" VerticalAlignment="Top" Width="120"/>
+        <Button x:Name="button" Content="Solve" HorizontalAlignment="Left" Margin="260,72,0,0" VerticalAlignment="Top" Width="104" Height="23" Click="button_Click"/>
+        <Label x:Name="label1" Content="MIN K =" HorizontalAlignment="Left" Margin="57,140,0,0" VerticalAlignment="Top" Height="31" Width="106"/>
+
+    </Grid>
+</Window>
